@@ -1,3 +1,5 @@
+//This is a test!!
+
 /*
  * Before you start, add this javascript file in a script tag in index.html.
  *
