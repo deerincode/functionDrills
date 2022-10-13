@@ -1,5 +1,3 @@
-//This is a test!!
-
 /*
  * Before you start, add this javascript file in a script tag in index.html.
  *
@@ -13,6 +11,10 @@
  * Write a function, using the function keyword. Call the function sayHello.
  * When invoked, sayHello should print the string 'hello world'.
  */
+// function sayHello(){
+//   console.log("hello world")
+// }
+// sayHello()
 
 /*
  * Prompt 2:
@@ -20,7 +22,10 @@
  * Create a function called print. Print should take a parameter called message.
  * When invoked and passed a string, print should `console.log` the message.
  */
-
+// const print = (message) =>{
+//   console.log(message)
+// }
+// print("This function works so well!!!!!")
 
 /*
  * Prompt 3:
@@ -29,7 +34,10 @@
  * called message. When invoked and passed a string, print 'Today's message
  * is:', followed by the message passed in as a parameter.
  */
-
+// const printMessage = (message) =>{
+//   console.log(`Today's message is: ${message}`)
+// }
+// printMessage("Shorts are comfy and easy to wear!")
 
 /*
  * Prompt 4:
@@ -38,9 +46,10 @@
  */
 
 /** Starter Code */
-function (a) {
-    return a ** 2
-  }
+// function calculateSecondPower(baseNumber) {
+//     return baseNumber ** 2
+//   }
+//   console.log(calculateSecondPower(3))
   
   /*
    * Prompt 5:
@@ -49,12 +58,15 @@ function (a) {
    * a parameter called message. When invoked and passed a string, print the
    * string in reverse. (hint: look up some ways of doing this.)
    */
-  let wordz = "This is a sentence"
-let reverseString = ''
-for(i = wordz.length-1; i >= 0; i--){
-    reverseString += wordz[i];
-}
-console.log(reverseString)
+  // const reverseMessage = (message) =>{
+  //   //let wordz = "This is a sentence"
+  //   let reverseString = ''
+  //   for(i = message.length-1; i >= 0; i--){
+  //   reverseString += message[i]
+  //   }
+  //   console.log(reverseString)
+  // }
+  // reverseMessage("Be glad I'm not using a palindrome")
   
   /*
    * Prompt 6:
@@ -65,7 +77,9 @@ console.log(reverseString)
    *
    * Hint: use a default parameter.
    */
-  
+  // const multiply = (a,b =2) => a * b
+
+  // console.log(multiply(3))
   
   /*
    * Prompt 7:
@@ -74,13 +88,18 @@ console.log(reverseString)
    */
   
   /** Starter Code */
-  function makePerson(firstname, lastname) {
-    firstname: firstname,
-      lastname: lastname
-  }
+  // function makePerson(firstname, lastname) {
+  //   let person = {
+  //     firstname: firstname,
+  //     lastname: lastname
+  //   }
+  //   return person
+  // }
   
-  const zakk = makePerson('Zakk', 'F')
-  const jimmy = makePerson('Jimmy', 'B')
+  // const zakk = makePerson('Zakk', 'F')
+  // const jimmy = makePerson('Jimmy', 'B')
+  // console.log(zakk)
+  // console.log(jimmy)
   
   
   /*
@@ -88,13 +107,38 @@ console.log(reverseString)
    *
    * Write a function that returns an object. The object can be anything.
    */
-  
+  // const createPocketMonster = (monsterName, type1, type2, level) =>{
+  //   let pocketMonster = {
+  //     monsterName: monsterName,
+  //     type1: type1,
+  //     type2: type2,
+  //     level: level
+  //   }
+  //   return pocketMonster
+  // }
+
+  // const legallyDistinctPikachu = createPocketMonster("ThunderMouse","Electric","Normal",25)
+  // const deerMonster = createPocketMonster("Doebadiebadoe","Fighting", "Fairy", 32)
+  // console.log(legallyDistinctPikachu)
+  // console.log(deerMonster)
   
   /*
    * Prompt 9:
    *
    * Write a function that returns an array. The array can be of anything.
    */
+  // const createAndReturnGameCollection = (game1, game2, game3, game4, game5) =>{
+  //   let gameCollection = [game1, game2, game3, game4,game5]
+  //   let returnCollection = []
+  //   for(let i = 0; i <= 4; i++){
+  //     if(gameCollection[i]){
+  //       returnCollection.push(gameCollection[i])
+  //     }
+  //   }
+  //   return returnCollection
+  // }
+
+  // console.log(createAndReturnGameCollection('Final Fantasy VII', 'Morrowind', 'Slay the Spire'))
   
   
   /*
@@ -105,7 +149,15 @@ console.log(reverseString)
    */
   
   /** Starter Code */
-  let sum = 0
+  // let sum = 0
+
+  // const addToSum = (number) => sum += number
+
+  // addToSum(3)
+  // addToSum(1)
+  // addToSum(100)
+  // addToSum(20)
+  // console.log(sum)
   
   
   /*
@@ -114,6 +166,17 @@ console.log(reverseString)
    * Write a function that takes an array of number values and returns the sum.
    * Test it out to make sure it works.
    */
+
+  // const addNumberArray = (array) =>{
+  //   let arraySum = 0
+  //   for (let i of array){
+  //     arraySum += i
+  //   }
+  //   return arraySum
+  // }
+
+  // testArray = [3, 1, 100, 20]
+  // console.log(addNumberArray(testArray))
   
   
   /*
@@ -122,7 +185,13 @@ console.log(reverseString)
    * Write a function that takes a string and returns an array of every word in
    * the string.
    */
+  // const returnStringAsArray = (string) =>{
+  //   let returnArray = string.split(" ")
+  //   return returnArray
+  // }
   
+  // console.log(returnStringAsArray("If you trust in yourself and believe in your dreams"))
+
   
   /*
    * Prompt 13:
@@ -132,7 +201,7 @@ console.log(reverseString)
    */
   
   /** Starter Code */
-  testFunc()()
+  // testFunc()()
   
   
   
@@ -147,7 +216,7 @@ console.log(reverseString)
   function add(a, b) {
     return a + b
   }
-  
+
   
   /*
    * Prompt 15:
@@ -155,3 +224,12 @@ console.log(reverseString)
    * Write a function that returns another function. Have the inner function print
    * the string "hello world"
    */
+  function returnOtherFunction() {
+    return printHello()
+  }
+
+  const printHello = () =>{
+    return "hello world"
+  }
+
+  console.log(returnOtherFunction())
